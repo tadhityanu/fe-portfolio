@@ -1,5 +1,4 @@
 {
-  "homepage": "https://tadhityanu.github.io/tadhityanu/fe-portfolio",
   "name": "portofolio",
   "homepage": "https://tadhityanu.github.io/fe-portfolio",
   "private": true,
@@ -15,8 +14,6 @@
   },
   "dependencies": {
     
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "@ant-design/icons": "^5.5.1",
     "@fontsource/poppins": "^5.1.0",
     "@fontsource/viga": "^5.1.0",
