@@ -5,15 +5,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "@ant-design/icons": "^5.5.1",
     "@fontsource/poppins": "^5.1.0",
     "@fontsource/viga": "^5.1.0",
