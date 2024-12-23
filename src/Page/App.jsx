@@ -5,7 +5,7 @@ import MainPage from "./MainPage";
 function App() {
   return (
     <Routes>
-      <Route path="/" Component={MainPage} />
+      <Route path="/fe-portfolio/" Component={MainPage} />
     </Routes>
   );
 }
