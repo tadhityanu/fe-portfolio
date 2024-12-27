@@ -84,8 +84,13 @@ const Project = () => {
             </Col>
             <Col
               className="zoom-in"
+              xl={{ span: 16 }}
+              lg={{ span: 16 }}
+              md={{ span: 18 }}
+              sm={{ span: 18 }}
+              xs={{ span: 18 }}
               style={{
-                height: projectMobile(),
+                // height: projectMobile(),
                 borderRadius: 16,
               }}
               onClick={() => setIsModalOpen(true)}
@@ -103,8 +108,13 @@ const Project = () => {
             </Col>
             <Col
               className="zoom-in"
+              xl={{ span: 16 }}
+              lg={{ span: 16 }}
+              md={{ span: 18 }}
+              sm={{ span: 18 }}
+              xs={{ span: 18 }}
               style={{
-                height: projectMobile(),
+                // height: projectMobile(),
                 borderRadius: 16,
               }}
               onClick={() => setIsModalOpen(true)}
