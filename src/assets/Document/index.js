@@ -1,6 +1,6 @@
 
-import dummyDoc from './dummyDoc.pdf'
+import TaufanCV from './TaufanCV.pdf'
 
 export {
-    dummyDoc
+    TaufanCV
 }

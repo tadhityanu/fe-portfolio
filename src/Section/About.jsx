@@ -1,6 +1,6 @@
 import { Button, Col, Flex, Grid, Image, Row, Space, Typography } from "antd";
 import { AboutImage } from "../assets/Image";
-import { dummyDoc } from "../assets/Document";
+import { TaufanCV } from "../assets/Document";
 
 const { Text } = Typography;
 const { useBreakpoint } = Grid;
@@ -66,7 +66,7 @@ const About = () => {
               skills
             </Text>
             <Space>
-              <a href={dummyDoc} download="Resume Taufan Adhitya.pdf">
+              <a href={TaufanCV} download="Resume Taufan Adhitya.pdf">
                 <Button type="light-blue">
                   <Text type="White-16-500">Download CV</Text>
                 </Button>
